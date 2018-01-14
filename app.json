@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/componentsDisplay/componentsDisplay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+   "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath":"image/icon_component.png",
+        "selectedIconPath":"image/icon_component_HL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath":"image/icon_API.png",
+        "selectedIconPath":"image/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/componentsDisplay/componentsDisplay",
+        "text": "组件",
+        "iconPath":"image/icon_API.png",
+        "selectedIconPath":"image/icon_API_HL.png"
+      }
+    ]
+  }
+}

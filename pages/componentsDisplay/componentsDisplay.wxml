@@ -1,0 +1,14 @@
+<view class="container">
+    <view>
+        <map id="myMap" show-location />
+    </view>
+
+    <button type="primary" bindtap="getCenterLocation">获取位置</button>
+    <button type="primary" bindtap="moveToLocation">移动位置</button>
+    <button type="primary" bindtap="translateMarker">移动标注</button>
+    <button type="primary" bindtap="includePoints">缩放视野展示所有经纬度</button>
+
+    <view style="margin-top:20rpx">
+        <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+    </view>
+</view>
